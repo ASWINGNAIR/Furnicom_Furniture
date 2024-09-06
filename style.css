@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "playfair Display",system-ui;
+}
+:root{
+    --x:rgb(98, 3, 3)
+}
+#backg{
+    background-color: rgba(0, 0, 0,0.336);
+    width: 100%;
+    /* height: 100vh; */
+}
+
+#main{
+    background-image: url(./images/furniture2.jpg);
+    width: 100%;
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#logo{
+    width: 230px;
+    height: 100px;
+}
+ul li{
+    font-size: 20px; 
+}
+#button{
+    background-color: var(--x);
+    color: white;
+}
+#button:hover{
+    background-color: white;
+    color:var(--x) ;
+    border-color: var(--x);
+}
+
+li i{
+    color: rgb(186, 182, 182);
+}
+#welcome{
+    margin-top: 22%;
+    margin-left: 5%;
+    color: white;
+}
+#welcome h4{
+    font-size: 30px;
+}
+#welcome h1{
+    font-size: 90px;
+}
+
+@media(max-width:600px){
+    #welcome h4{
+        font-size: 20px;
+    }
+    #welcome h1{
+        font-size:50px;
+    }
+}
+#welcome button{
+    border-color: white;
+    color: white;
+}
+
+#work{
+   background-image: url(https://thumbs.dreamstime.com/b/animated-art-background-moving-pencil-drawing-slowly-52516619.jpg?w=400);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 8%;
+    padding-top: 6%;
+}
+
+#button{
+    background-color: var(--x);
+    color: white;
+}
+
+#button:hover{
+    background-color: rgba(255, 255, 255, 0.964);
+    color: var(--x);
+    border-color: var(--x);
+}
+
+
+#viewbtn3,#viewbtn2,#viewbtn1,#viewbtn4,#viewbtn5{
+    background-color: rgba(255, 255, 255, 0.064);
+    color: var(--x);
+    border-color: var(--x);
+}
+
+#viewbtn3:hover ,#viewbtn2:hover ,#viewbtn1:hover,#viewbtn4:hover,#viewbtn5:hover{
+    background-color: var(--x);
+    color: white;
+}
+
+
+#about{
+    background-color: rgb(204, 203, 203);
+    padding: 7% 0;
+}
+#about h1{
+    color: var(--x);
+}
+#hr{
+    background-color: var(--x);
+    width: 200px;
+    height: 7px;
+}
+#about p{
+    text-align: justify;
+}
+#aboutdiv{
+    border: 7px solid var(--x);
+    width: 80%;
+    height: 450px;
+    padding-top: 4%;
+    padding-left: 4%;
+}
+#div1{
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 50%;
+    height: 6rem;
+    color: white;
+}
+.div2{
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 70%;
+    height: 5rem;
+    color: white;
+}
